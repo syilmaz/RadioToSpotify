@@ -1,0 +1,44 @@
+{
+  "name": "spotifyradio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "crawl": "gulp && node out/crawler_server",
+    "run-spotify": "gulp && node out/run_spotify_services",
+    "spotify-search": "gulp && node out/spotify_search",
+    "spotify-analyse": "gulp && node out/spotify_analyse",
+    "playlist-updater": "gulp && node out/playlist_updater",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "escape-string-regexp": "^1.0.5",
+    "lodash": "^4.17.4",
+    "moment-timezone": "^0.5.11",
+    "mongoose": "^4.7.7",
+    "redis": "^2.6.5",
+    "request": "^2.79.0",
+    "spotify-web-api-node": "^2.3.6",
+    "string-similarity": "^1.1.0",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.17.31",
+    "@types/moment": "^2.13.0",
+    "@types/moment-timezone": "^0.2.34",
+    "@types/mongoose": "^4.7.3",
+    "@types/node": "^7.0.0",
+    "@types/redis": "^0.12.34",
+    "@types/request": "0.0.39",
+    "@types/winston": "^2.2.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-typescript": "^3.1.4",
+    "lodash": "^4.17.4",
+    "typescript": "^2.1.5"
+  }
+}

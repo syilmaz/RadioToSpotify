@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "outDir": "out/",
+    "sourceMap": true,
+    "typeRoots": [ "node_modules/@types" ]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
